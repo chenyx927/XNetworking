@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XNetworking'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'A short description of XNetworking.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'XNetworking' => ['XNetworking/Assets/*.png']
   # }
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'XNetworking/Classes/Header/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

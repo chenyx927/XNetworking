@@ -1,5 +1,5 @@
 PODS:
-  - XNetworking (0.2.0)
+  - XNetworking (0.3.0)
 
 DEPENDENCIES:
   - XNetworking (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XNetworking: f4ac1840a3e28fbc8bfca77fe5e8d6b2143c002d
+  XNetworking: a176fe0d42db00d58ed396e470df33bc01fb222b
 
 PODFILE CHECKSUM: ba8efecdd1487192bdb07ed32696a3e2c61fd470
 

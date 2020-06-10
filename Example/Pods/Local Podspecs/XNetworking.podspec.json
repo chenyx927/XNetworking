@@ -1,6 +1,6 @@
 {
   "name": "XNetworking",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "A short description of XNetworking.",
   "description": "是一个学习podspec的项目 借助这个项目你可以快速构建一个pod库 有了这个学习项目 就无忧了",
   "homepage": "https://github.com/675563199@qq.com/XNetworking",
@@ -13,11 +13,11 @@
   },
   "source": {
     "git": "https://github.com/chenyx927/XNetworking.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "XNetworking/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "public_header_files": "XNetworking/Classes/Header/*.h"
 }
