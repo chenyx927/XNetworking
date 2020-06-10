@@ -1,0 +1,16 @@
+PODS:
+  - XNetworking (0.1.0)
+
+DEPENDENCIES:
+  - XNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  XNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XNetworking: 6ec6a023c81ca1ce5023aca2d5c024df3b878bb9
+
+PODFILE CHECKSUM: ba8efecdd1487192bdb07ed32696a3e2c61fd470
+
+COCOAPODS: 1.9.3

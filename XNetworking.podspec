@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+是一个学习podspec的项目 借助这个项目你可以快速构建一个pod库 有了这个学习项目 就无忧了
                        DESC
 
   s.homepage         = 'https://github.com/675563199@qq.com/XNetworking'
@@ -35,8 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'XNetworking' => ['XNetworking/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

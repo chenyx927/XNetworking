@@ -10,7 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XNetwork : NSObject
-
+- (void)inputContent:(NSString *)str;
+- (void)inputTest;
 @end
 
 NS_ASSUME_NONNULL_END

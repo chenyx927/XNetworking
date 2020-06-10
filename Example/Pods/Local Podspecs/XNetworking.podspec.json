@@ -1,0 +1,22 @@
+{
+  "name": "XNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of XNetworking.",
+  "description": "是一个学习podspec的项目 借助这个项目你可以快速构建一个pod库 有了这个学习项目 就无忧了",
+  "homepage": "https://github.com/675563199@qq.com/XNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "675563199@qq.com": "chenyx@aicaigroup.com"
+  },
+  "source": {
+    "git": "https://github.com/675563199@qq.com/XNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XNetworking/Classes/**/*"
+}
