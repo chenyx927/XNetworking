@@ -12,7 +12,6 @@
 		42C1D47F6848DF4A21B4C2C9B4B94001 /* Pods-XNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD061D23E7CA1B34DF8CBB9790A7D67F /* Pods-XNetworking_Example-dummy.m */; };
 		4D580AD968D84609ED1B21AF7E8A9BF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8922E465714CA28ECB8CB1230E58C4BD /* Pods-XNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C593C89C40C5656C6427EF42974B5E9B /* Pods-XNetworking_Tests-dummy.m */; };
-		8BEC63615D7AC873EBBEE63DE4E82792 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE00A9EFEAB91480499B7B90BBB32F3 /* ReplaceMe.m */; };
 		AD25F73DA2EBE6FB3BFAD64794D05A05 /* XNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA6FC91E5A6E2D449E7E009F4955ACC /* XNetworkClient.m */; };
 		B0200509CA81B445116A5280B629723E /* XNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5953E79E766F8B1AD39BD71AB5208B2B /* XNetworkClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8191C5D4CC91CFB5C5F3EF9DBFAFCC0 /* XNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A61B0F65813E17C12CFD9DBE5E2175 /* XNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,32 +50,31 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4DE93245378E8D4985363B5AA60C4C70 /* XNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		5953E79E766F8B1AD39BD71AB5208B2B /* XNetworkClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XNetworkClient.h; sourceTree = "<group>"; };
-		59DB034B3771D27472FE7211275235AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59DB034B3771D27472FE7211275235AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67D432A14841967B60957803473AAFF6 /* XNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XNetworking.modulemap; sourceTree = "<group>"; };
-		7CE9A06CA05899D81FFF3316FA3F063F /* XNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XNetworking.framework; path = XNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80A1D5BFD01FEA39D243C5C585BD741D /* Pods_XNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XNetworking_Tests.framework; path = "Pods-XNetworking_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE9A06CA05899D81FFF3316FA3F063F /* XNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A1D5BFD01FEA39D243C5C585BD741D /* Pods_XNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81485178D1077DD13E5AA70C3AEB4A9A /* Pods-XNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89A61B0F65813E17C12CFD9DBE5E2175 /* XNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNetworking-umbrella.h"; sourceTree = "<group>"; };
 		8D1FEC965AB443F799C31539089BE0F7 /* XNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNetworking-prefix.pch"; sourceTree = "<group>"; };
 		8DD4A2792DB5883851312FC741FBD18E /* XNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XNetwork.h; sourceTree = "<group>"; };
 		99510D9A0B9F1614A18F9C4A27366726 /* Pods-XNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9CB382A78E04C27315B45A8EBFDD81CA /* Pods_XNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XNetworking_Example.framework; path = "Pods-XNetworking_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB382A78E04C27315B45A8EBFDD81CA /* Pods_XNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAA6FC91E5A6E2D449E7E009F4955ACC /* XNetworkClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XNetworkClient.m; path = XNetworking/Classes/XNetworkClient.m; sourceTree = "<group>"; };
 		AD83CBC96093D2A9428FED587C0E1A99 /* XNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNetworking.release.xcconfig; sourceTree = "<group>"; };
 		B132249DF999A3449F831E1E3A8EBFF2 /* Pods-XNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD5D24F0B417BA2033C071EC1DB09D1D /* Pods-XNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
 		C593C89C40C5656C6427EF42974B5E9B /* Pods-XNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
-		CC5058499BCF16EF18710FB312255752 /* XNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC5058499BCF16EF18710FB312255752 /* XNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CD061D23E7CA1B34DF8CBB9790A7D67F /* Pods-XNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XNetworking_Example-dummy.m"; sourceTree = "<group>"; };
 		D5CE4EB9F15B42AEB3CACC9B352129CF /* Pods-XNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XNetworking_Example.modulemap"; sourceTree = "<group>"; };
 		D9965E37062B7E0AF2263E5C10999DE5 /* Pods-XNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB7A308AF67610AF479E6CB02E03224C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DB7A308AF67610AF479E6CB02E03224C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E42E05080FFB2C8E999DB54499A72DA6 /* Pods-XNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EAE5B0E700AFDB2D023FC77AC085CF36 /* Pods-XNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ED8425633EB8D80B78C74102092AB9EE /* Pods-XNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNetworking_Example-Info.plist"; sourceTree = "<group>"; };
 		F894B069DCE5B388A4048ECA9E48CB6C /* Pods-XNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBE00A9EFEAB91480499B7B90BBB32F3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XNetworking/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		FBE7C93B2A7559BCFA03CEE85C2B7E56 /* Pods-XNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +144,6 @@
 		8B14DFC32BE7355E764C6253A7F31CDF /* XNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				FBE00A9EFEAB91480499B7B90BBB32F3 /* ReplaceMe.m */,
 				014D43AA483E12427CF7AA9FC1B17AB8 /* XNetwork.m */,
 				AAA6FC91E5A6E2D449E7E009F4955ACC /* XNetworkClient.m */,
 				3B39F9F2CD73FB78DF6750A9AAF2051F /* Header */,
@@ -398,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEC63615D7AC873EBBEE63DE4E82792 /* ReplaceMe.m in Sources */,
 				C1B5C2964259C359C1638061690270E2 /* XNetwork.m in Sources */,
 				AD25F73DA2EBE6FB3BFAD64794D05A05 /* XNetworkClient.m in Sources */,
 				BFFAAAAB8B04F6E60790396750236BA3 /* XNetworking-dummy.m in Sources */,
@@ -549,8 +545,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
